@@ -1,0 +1,80 @@
+Step 1
+
+  Download task file and extract metadata using exiftool
+
+    Copy url from machine browser to Kali Linux VM browser and download image
+
+    Open terminal emulator and navigate from home to downloads folder
+    
+    Run the following command
+     
+      exiftool WindowsXP_1551719014755.jpg
+
+  Key information obtained from the following output
+
+    Copyright                       : OWoodflint
+
+  Metadata can also be extracted using online tools such as jimpl
+
+    Access jimpl.com via web browser
+
+    Copy image url, paste into URL input field and hit Enter
+
+Step 2
+
+  Google OWoodflint
+
+    Returns 3 key pages that contain various clues and flags - Twitter/X profile, GitHub, WordPress blog
+
+Step 3
+
+  Access Twitter profile
+
+    Key information obtained:
+
+      Avatar (flag 1)
+
+      BSSID stated to be at home address (clue for flag 3)
+
+Step 4
+
+  Search for BSSID using Wigle.net (account required)
+
+    Key information obtained:
+
+      Name of wifi network OWoodflint is connected to (SSID) (flag 3)
+
+Step 5
+
+  Access GitHub repo
+
+    Key information obtained:
+
+      Home town (flag 2)
+
+      Confirmation of Twitter/X handle
+
+      Personal email address (flag 4/5)
+
+      Full name (Oliver Woodflint)
+      
+      Confirmation of wordpress url (https://oliverwoodflint.wordpress.com/)
+
+Step 6
+
+  Access WordPress blog (surface level)
+
+    Key information obtained:
+
+      Holiday destination (flag 6)
+
+Step 7
+
+  View WordPress page source
+
+    Scour source code to find password (flag 7)
+
+      Can also be identified by inspecting the white box under body of blog post
+
+      Password is displayed on webpage in white text, so can also be identified by double clicking on space where cursor displays as an I-beam
+    
